@@ -1,0 +1,14 @@
+http://localhost:8082/api/auth/signup
+{
+"name":"stallin",
+"username":"stallin",
+"email":"stallin@gmail.com",
+"password":"stesting"
+}
+http://localhost:8082/api/auth/signin
+{
+
+"usernameOrEmail":"stallin",
+"password":"stesting"
+}
+and authorization bearer token(generated while signing in) paste token inside the bearer token.
